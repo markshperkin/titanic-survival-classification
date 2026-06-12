@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle credentials (never commit secrets)
+.kaggle/
+kaggle.json
+
+# Raw Kaggle dump — we only use data/train.csv
+dataset/
+
+# ELTA's private assignment brief — do not publish
+elta_ai_home_assignment_ds.md
+
+# Internal dev handoff notes — not part of the deliverable
+docs/handoff.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
