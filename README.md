@@ -253,15 +253,6 @@ decompose any single prediction from the average baseline to the final probabili
 each feature's push toward survived/died. Both support a one-hot grouping toggle (12 features vs
 23 columns).
 
-| Feature | Permutation importance (MLP, mean AUC drop) |
-|---|---|
-| **Title** *(engineered)* | 0.070 |
-| Sex | 0.047 |
-| Pclass | 0.044 |
-| **FareRank** *(engineered)* | 0.020 |
-| **LogFare** *(engineered)* | 0.016 |
-| SibSp | 0.015 |
-
 ### Conclusion
 
 Both models comfortably beat the baseline and land near the well-known Titanic accuracy ceiling
