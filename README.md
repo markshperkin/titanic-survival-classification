@@ -74,8 +74,8 @@ requirements.txt
 ### 1. Clone & install
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/markshperkin/titanic-survival-classification.git
+cd titanic-survival-classification
 python -m venv .venv
 # Windows:  .venv\Scripts\activate     |  macOS/Linux:  source .venv/bin/activate
 pip install -r requirements.txt
